@@ -6,6 +6,6 @@ In this exercise, you will navigate to .
 2.  Notice that the canvas now lists out the active Schemas for the environment.
 3.  Click on the CRM Profile Schema
 
-!(0. Images/Browse_Dataset_1.png)
+![Schema Location](0. Images/Browse_Schema_1.png)
 
 
