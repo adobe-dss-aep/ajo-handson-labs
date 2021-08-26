@@ -1,4 +1,4 @@
-## Demo 1 - Browse a Dataset in AJO
+## Demo 1 - Browse a Schema in AJO
 
 In this exercise, you will navigate to .
 
@@ -6,6 +6,6 @@ In this exercise, you will navigate to .
 2.  Notice that the canvas now lists out the active Schemas for the environment.
 3.  Click on the CRM Profile Schema
 
-![Demo](0. Images/Browse_Dataset_1.png)
+!(0. Images/Browse_Dataset_1.png)
 
 
