@@ -6,4 +6,4 @@ In this exercise, you will navigate to .
 2.  Notice that the canvas now lists out the active Schemas for the environment.
 3.  Click on the CRM Profile Schema
 
-(./0. images/Browse_Dataset_1.png)
+https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Browse_Dataset_1.png
