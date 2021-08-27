@@ -42,4 +42,4 @@ In this exercise, you will load data from an SFTP storage location inuo Adobe Jo
 21.  Click Finish when complete.
 ![SFTP](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/d7726cb25b70b68fc46ef113a5bc5c970917b4fa/0.%20Images/Lab_SFTP_10.png)
 
-22.  END OF DEMO.
+22.  END OF LAB.
