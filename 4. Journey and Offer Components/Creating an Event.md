@@ -42,5 +42,4 @@ In this exercise, you will create an Event in Adobe Journey Optimizer.
 22.  Notice that the Event is now listed in your Events List.
 ![Event](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/c3a5eba7996441f20b79aea2e9302a5781060d8a/0.%20Images/Creating_Event_9.png)
 
-
 23.  END OF LAB.
