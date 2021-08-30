@@ -17,7 +17,7 @@ In this exercise, you will create a Basic Journey in Adobe Journey Optimizer.
 
 8.  Click on the Label of the Read Segment.  Change the label to “Silver Loyalty Members”.
 9.  Click on the pencil in the Segment.
-![Basic Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/96de49783d41b9e93724aa08aa6ccd5f3c0f42c9/0.%20Images/Basic_Journey_4.png)
+![Basic Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/96de49783d41b9e93724aa08aa6ccd5f3c0f42c9/0.%20Images/Basic_Journey_5.png)
 
 10.  From the Choose Segment applet, select “Silver Loyalty Members”.
 11.  Click Save.
