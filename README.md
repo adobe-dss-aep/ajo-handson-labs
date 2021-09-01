@@ -10,8 +10,8 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 
 #### Foundations
 
-- [Schemas](Foundations/Schemas.md)
-- [Datasets](Foundations/Datasets.md)
+- [Schemas](1.%20Data%20Foundations/Demo%20-%20Browse%20a%20Schema.md)
+- [Datasets](1.%20Data%20Foundations/Demo%20-%20Preview%20a%20Dataset.md)
 
 #### Data Ingestion
 
@@ -34,6 +34,7 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 - [Lab - Define a Decision Rules](Offer%20Decisioning%20Engine/Exercise3-DecisionRules.md)
 - [Lab - Create a Collection](Offer%20Decisioning%20Engine/Exercise6-Collections.md)
 - [Lab - Create a Offer Decision](Offer%20Decisioning%20Engine/Exercise7-OfferActivity.md)
+- Lab - Call Offer Decisioning using API. 
 
 &nbsp;
 
@@ -42,7 +43,7 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 #### Content Authoring
 
 - [Lab - Assets Essentials Deep Dive](Content%20Authoring/Assets%20Essentials%20Deep%20Dive.md)
-- [Lab - Email Designer Deep Dive](Content%20Authoring/Email%20Designer%20Deep%20Dive.md)
+- [Lab - Email Designer Deep Dive](5.%20Content%20Authoring/Create%20an%20Email%20Message.md)
 
 #### Offer
 
@@ -51,8 +52,8 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 
 #### Basic Journey
 
-- [Lab - Design a batch Customer Journey](Journey%20Orchestration/Exercise4-Journey.md)
+- [Lab - Design a batch Customer Journey](6.%20Basic%20Journey/Create%20a%20Basic%20Journey.md)
 
 #### Complex Journey
 
-- [Lab - Design a multi step, event triggered Customer Journey](Complex%20Journey/Create%20a%20Complex%20Journey.md)
+- [Lab - Design a multi step, event triggered Customer Journey](7.%20Complex%20Journey/Create%20a%20Complex%20Journey.md)
