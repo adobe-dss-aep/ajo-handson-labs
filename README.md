@@ -8,10 +8,11 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 
 ### Day 1
 
-#### Data Foundations
+#### 1. Data Foundations
 
 - [Browse a Schema](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/1.%20Data%20Foundations/Demo%20-%20Browse%20a%20Schema.md)
-- [Datasets](1.%20Data%20Foundations/Demo%20-%20Preview%20a%20Dataset.md)
+- [Preview a Dataset](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/1.%20Data%20Foundations/Demo%20-%20Preview%20a%20Dataset.md)
+- [Lab - Loading Data from an SFTP](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/1.%20Data%20Foundations/Lab%20-%20Loading%20Data%20from%20SFTP.md)
 
 #### Data Ingestion
 
@@ -30,11 +31,7 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 
 #### Offer and Journey Components
 
-- [Lab - Define a Tag](Offer%20Decisioning%20Engine/Exercise1-Tags.md)
-- [Lab - Define a Decision Rules](Offer%20Decisioning%20Engine/Exercise3-DecisionRules.md)
-- [Lab - Create a Collection](Offer%20Decisioning%20Engine/Exercise6-Collections.md)
-- [Lab - Create a Offer Decision](Offer%20Decisioning%20Engine/Exercise7-OfferActivity.md)
-- Lab - Call Offer Decisioning using API. 
+
 
 &nbsp;
 
