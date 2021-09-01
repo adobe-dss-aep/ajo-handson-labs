@@ -8,9 +8,9 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 
 ### Day 1
 
-#### Foundations
+#### Data Foundations
 
-- [Schemas](1.%20Data%20Foundations/Demo%20-%20Browse%20a%20Schema.md)
+- [Browse a Schema](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/1.%20Data%20Foundations/Demo%20-%20Browse%20a%20Schema.md)
 - [Datasets](1.%20Data%20Foundations/Demo%20-%20Preview%20a%20Dataset.md)
 
 #### Data Ingestion
