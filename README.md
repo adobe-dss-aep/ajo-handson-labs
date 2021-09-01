@@ -10,8 +10,8 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 
 #### 1. Data Foundations
 
-- [Browse a Schema](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/1.%20Data%20Foundations/Demo%20-%20Browse%20a%20Schema.md)
-- [Preview a Dataset](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/1.%20Data%20Foundations/Demo%20-%20Preview%20a%20Dataset.md)
+- [Demo - Browse a Schema](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/1.%20Data%20Foundations/Demo%20-%20Browse%20a%20Schema.md)
+- [Demo - Preview a Dataset](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/1.%20Data%20Foundations/Demo%20-%20Preview%20a%20Dataset.md)
 - [Lab - Loading Data from an SFTP](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/1.%20Data%20Foundations/Lab%20-%20Loading%20Data%20from%20SFTP.md)
 
 #### 2. Profiles and Identities
@@ -31,30 +31,15 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 
 ### Day 2
 
-#### Content Authoring
+#### 5.  Content Authoring
 
 - [Lab - Create a Collection](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/Create%20a%20Collection.md)
-
 - [Lab - Create a Decision](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/Create%20a%20Decision.md)
-
 - [Lab - Create an Email Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/Create%20an%20Email%20Message.md)
-
 - [Lab - Create an Offer](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/Create%20an%20Offer.md)
 
+#### 6.  Basic Journey
+- [Lab - Create a Basic Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/6.%20Basic%20Journey/Create%20a%20Basic%20Journey.md)
 
-#### Asset Essentials
-- [Lab - Assets Essentials Deep Dive](Content%20Authoring/Assets%20Essentials%20Deep%20Dive.md)
-- [Lab - Email Designer Deep Dive](5.%20Content%20Authoring/Create%20an%20Email%20Message.md)
-
-#### Offer
-
-- [Lab - Create Personalized Offers](Exercise4-PersonalizedOffers.md)
-- [Lab - Validate Your Offer ](Offer%20Decisioning%20Engine/Exercise8-ValidateOffer.md)
-
-#### Basic Journey
-
-- [Lab - Design a batch Customer Journey](6.%20Basic%20Journey/Create%20a%20Basic%20Journey.md)
-
-#### Complex Journey
-
-- [Lab - Design a multi step, event triggered Customer Journey](7.%20Complex%20Journey/Create%20a%20Complex%20Journey.md)
+#### 7.  Complex Journey
+- [Lab - Create a Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/7.%20Complex%20Journey/Create%20a%20Complex%20Journey.md)
