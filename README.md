@@ -14,24 +14,18 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 - [Preview a Dataset](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/1.%20Data%20Foundations/Demo%20-%20Preview%20a%20Dataset.md)
 - [Lab - Loading Data from an SFTP](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/1.%20Data%20Foundations/Lab%20-%20Loading%20Data%20from%20SFTP.md)
 
-#### Data Ingestion
+#### 2. Profiles and Identities
 
-- [Lab - Data Ingestion](Foundations/Ingestion.md)
+#### 3. Defining Segments
 
-#### Segmentation
+- [Lab - Create a Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/3.%20Defining%20Segments/Create%20a%20Segment.md)
 
-- [Lab - Profiles & Identities ](Foundations/Profiles.md)
-- [Lab - Segmentation](Foundations/Segments.md)
+#### 4. Journey and Offer Components
 
-#### Journey Components
-
-- [Lab - Define an Event](Journey%20Orchestration/Exercise1-Events.md)
-- [Lab - Define an External Data Source](Journey%20Orchestration/Exercise2-DataSources.md)
-- [Lab - Define a Custom Action](Journey%20Orchestration/Exercise3-Action.md)
-
-#### Offer and Journey Components
-
-
+- [Lab - Create a Placement](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/4.%20Journey%20and%20Offer%20Components/Create%20a%20Placement.md)
+- [Lab - Create a Rule](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/4.%20Journey%20and%20Offer%20Components/Create%20a%20Rule.md)
+- [Lab - Create a Tag](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/4.%20Journey%20and%20Offer%20Components/Create%20a%20Tag.md)
+- [Lab - Create an Event](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/4.%20Journey%20and%20Offer%20Components/Creating%20an%20Event.md)
 
 &nbsp;
 
@@ -39,6 +33,16 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 
 #### Content Authoring
 
+- [Lab - Create a Collection](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/Create%20a%20Collection.md)
+
+- [Lab - Create a Decision](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/Create%20a%20Decision.md)
+
+- [Lab - Create an Email Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/Create%20an%20Email%20Message.md)
+
+- [Lab - Create an Offer](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/Create%20an%20Offer.md)
+
+
+#### Asset Essentials
 - [Lab - Assets Essentials Deep Dive](Content%20Authoring/Assets%20Essentials%20Deep%20Dive.md)
 - [Lab - Email Designer Deep Dive](5.%20Content%20Authoring/Create%20an%20Email%20Message.md)
 
