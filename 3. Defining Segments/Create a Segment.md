@@ -3,7 +3,7 @@
 In this exercise, you will create two Segments in Adobe Journey Optimizer that will be used to send specific communications.
 
 
-# First Segment
+### First Segment
 The first segment we want to create is to send coupon to sliver member who have low propensity score to buy in the next 3 months. 
 We will send coupon to those customers to boost our sales. 
 
@@ -20,23 +20,23 @@ In the segment User Interface, you can create segment basde on profile attribute
 
 5.  Drag Event Level onto Canvas. Select "silver"
 
-![Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/8f00bf935516f16f128faa2c9eed3ad218ae994b/0.%20Images/Segment1-step1.JPG)
+![Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Segment1-step1.JPG)
 
 6.  Search for "propensity", Select "propensity to buy in the next 3 months", and drag and drop below the "level = silver" block. 
 Select "is less than 75" as we don't want to give coupon to people who are likely to buy anyway. 
 Check the condition is "AND"
 
-![Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/8f00bf935516f16f128faa2c9eed3ad218ae994b/0.%20Images/Segment1-step2.JPG)
+![Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Segment1-step2.JPG)
 
 You can click on "refresh Extimate" to get a pre count of your segment.  
 
 7.  Click on Save
 
 8.  Notice that the Segment has been created.
-![Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/8f00bf935516f16f128faa2c9eed3ad218ae994b/0.%20Images/Segment1-step3.JPG)
+![Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Segment1-step3.JPG)
  
 
-# Second Segment
+### Second Segment
 Later on the journey, we will want to retarget people who have receive a coupon but didn't use it for purchase. Let's create this 
 segment.
 
