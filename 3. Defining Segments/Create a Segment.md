@@ -45,5 +45,6 @@ segment.
 10. Select "events" in the left pannel. 
 For this segment we want to target people who have received a coupon, then not made a purchase. We need to define a sequence of events. 
 
+TO COMPLETE
 
 9.  END OF LAB.
