@@ -45,6 +45,9 @@ segment.
 10. Select "events" in the left pannel. 
 For this segment we want to target people who have received a coupon, then not made a purchase. We need to define a sequence of events. 
 
+10. Search for "actionName", or browse XDM ExperienceEvent > Experience > Journey Orchestration > Journey Step Event Data Fetch Field. > actionName. Drag and Drop in the middle part. Select "equal 'Message - send coupon'"     
+
+
 TO COMPLETE
 
 9.  END OF LAB.

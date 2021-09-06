@@ -16,6 +16,8 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 
 #### 2. Profiles and Identities
 
+- [Lab - Understand Unified profile and ID stitching](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/2.%20Profiles%20and%20Identities/Unified%20Profile%20and%20ID%20stitching.md)
+
 #### 3. Defining Segments
 
 - [Lab - Create a Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/3.%20Defining%20Segments/Create%20a%20Segment.md)
