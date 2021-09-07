@@ -22,12 +22,18 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 
 - [Lab - Create a Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/3.%20Defining%20Segments/Create%20a%20Segment.md)
 
-#### 4. Journey and Offer Components
+#### 4. Journey Components
+
+- [Lab - Create an Event](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/4.%20Journey%20and%20Offer%20Components/Creating%20an%20Event.md)
+- [Lab - Review datasource]
+- [Lab - Review Actions]
+
+#### 4. Offer Components
 
 - [Lab - Create a Placement](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/4.%20Journey%20and%20Offer%20Components/Create%20a%20Placement.md)
-- [Lab - Create a Rule](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/4.%20Journey%20and%20Offer%20Components/Create%20a%20Rule.md)
+- [Lab - Optional - Create a Rule](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/4.%20Journey%20and%20Offer%20Components/Create%20a%20Rule.md)
 - [Lab - Create a Tag](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/4.%20Journey%20and%20Offer%20Components/Create%20a%20Tag.md)
-- [Lab - Create an Event](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/4.%20Journey%20and%20Offer%20Components/Creating%20an%20Event.md)
+
 
 &nbsp;
 

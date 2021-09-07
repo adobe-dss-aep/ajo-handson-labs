@@ -12,9 +12,9 @@ We will send coupon to those customers to boost our sales.
 ![Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/8f00bf935516f16f128faa2c9eed3ad218ae994b/0.%20Images/Segmentation_1.png)
 
 
-3.  Insert Name for Segment – “Silver Coupon - XXX”. Replace XX by your attendee number. 
+3.  Insert Name for Segment – “Silver Coupon - XXX”. Replace XXX by your attendee number. 
 
-In the segment User Interface, you can create segment basde on profile attribute, events, reuse created segment, or a combinaison of those options. Fr this segment we just use profile infomration. 
+In the segment User Interface, you can create segment based on profile attributes, events, reuse created segments, or a combinaison of those options. For this segment we just use profile infomration. 
 
 4.  Select "Attributes:, search for “Level”, or browse property Individual profile > AdobedemoAmerica 275 > Loyalty
 
