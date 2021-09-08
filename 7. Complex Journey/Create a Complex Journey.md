@@ -1,25 +1,31 @@
 ## Lab - Create a Complex Journey in Adobe Journey Optimizer
 
-In this exercise, you will create a Complex Journey in Adobe Journey Optimizer.
+In this exercise, you will create a multi step real time Journey in Adobe Journey Optimizer.
+We want to reward our customer who post a review on our web site. For this we will trigger a communication in real time when someone make a purchase, will let them some time to try it, then we will ask them to post a review. If they do so we will send them a reward.  
 
-1.  After completing this exercise, you will create the following Journey in Adobe Journey Optimizer:
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_1.png)
+After completing this exercise, Your jounrey should like that:
+![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_final.JPG)
 
 2.  Navigate to Journeys
 3.  Click on “Create Journey”
 ![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_2.png)
 
-4.  Provide a Name and Description
-5.  Check “Allow Re-Entrance”
+4.  Provide a Name and Description : Purchase Journey - XX, replace XX by your attendee number. Ex: Purchase Journey - 01
+
+5.  Check “Allow Re-Entrance” as we want each customer to restart this journey each time he make a purchase. 
+
 6.  Click Ok.
 ![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_3.PNG)
 
-7.  Change the Label to Read – “Customer Buys a Luma Item”
+7.  First step to design our journey is to select when a customer will start it. Here we want to trigger the jounrey as soon as we receive a "purchase" event from our web site. On the left pannel, expend "Events", drag and drop the "LumaPurchase" event. 
+
+![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Journey2_step0.JPG)
+
 8.  Add a Description if you would like.
 9.  Click Ok.
 ![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_4.PNG)
 
-10.  Click on the Message Action
+10.  Expend the "Action" menu on the left, then select message. 
 11.  Drag it onto the Canvas after the Purchase Event.
 12.  Add a Label and Description:  “Thanks for Your Order”
 13.  Click on “Select a Message”.
@@ -32,59 +38,44 @@ In this exercise, you will create a Complex Journey in Adobe Journey Optimizer.
 16.  Click Ok.
 ![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_7.PNG)
 
-17.  Click on the Wait Orchestration
+17.  Click on Orchestration on the left menu and select "wait"
 18.  Drag it onto the Canvas after the Message.
 19.  Set Type as Duration and Amount of Time to 7 Days.
 20.  Click Ok.
 ![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_8.PNG)
 
-21.  Click on Orchestration
-22.  Add the “Condition” after the Wait Step.
-23.  Click on “Add a Path” twice so that there are 3 paths total.
-24.  Change the name of the Paths to “Men”, “Women” and “Other”.
-25.  Click on Expression for “Men”
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_9.PNG)
+21. After 5 days, we want to send an email asking to post a product review. Go to "action", select message and drag and drop it in the canvas after the wait. 
 
-26.  Click on Gender is Male.
-27.  Click Ok.
-28.  Click Ok.
-29.  (NOTE:  Repeat for Female)
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_10.PNG)
+22. Select "rate your product" message
+![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_message2.JPG)
 
-30.  Click on Gender is Male / Gender is Female.  - and them both to the Canvas with an “AND” condition.
-31.  Click Ok.
-32.  Click Ok.
-33.  (NOTE:  Repeat for Female)
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_11.PNG)
+23.  Click on "Events" menu on the left
+24.  Drag and drop the "segment qualification" after the wait.
+Here we want to continue the jounrey only if and when our customer post a review. For this we will use the segment created previously "Product Review fulfilled"
+25.  Select the segment you have previously created "product review fulfilled - XX"
+26.  Let "behaviour" as "enter, define a timeout to 7 days. We can eventually add a path for timeout if you want to send a reminder.
 
-34.  Click Ok.
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_12.PNG)
+![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_condition.JPG)
 
-35.  Add the Men’s Collection Email to the Men’s Path
-36.  Add the Women’s Collection Email to the Women’s Path
-37.  Add the Other’s Collection Email to the Other’s Path
-38.  Click Ok
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_13.PNG)
+27. Finally we want to send the coupon, then end the jounrey. Drag and drop another message, then select "Luma coupon email"
+![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_message3.JPG)
 
-39.  You Journey should now have all three email messages attached, as in the picture.
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_14.PNG)
+28. Add an "end" activity after your message
 
-40.  Add a Reaction Event node to the Men’s Path;  Change the Label to “Opened Email”;  Click on Event and select “Email Opened”;
-41.  Add a Reaction Event node to the Women’s Path;  Change the Label to “Opened Email”;  Click on Event and select “Email Opened”;
-42.  Add an End Node to the Other’s Path
-43.  Click Ok
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_15.PNG)
+29. Your journey is now ready. We can now test it. Enable your jounrey for testing. 
 
-44.  Add a Wait step and combined the Men/Women’s paths;  Set the Wait for 7 Days;
-45.  Click Ok.
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_16.PNG)
+30. We can trigger a journey manually, but it would be complex to provide all product informatin. So let's use our web site. 
+Go to our web site. Ensure you are loged in. If not, login with email address 
 
-46.  Add a Message Action to the Canvas after the Wait step;  Select the “Special 15% Thank You” Message.
-47.  Click OK
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_17.PNG)
+31. Browse a product, click on add to cart
+![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_addToCart.JPG)
 
-48.  Add an End Node to your Journey.
-49.  Click Publish.
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_18.PNG)
+31. proceed to check out
+![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_checkout0.JPG)
+![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_checkout.JPG)
 
-50.  END OF LAB.
+32. Provide soem random value fo shipping address, then checkout. 
+
+33. Your purchase has been completed! Journey Optimiser will detect it, and trigger the jounrey if your profile is a "test profile" 
+
+34.  END OF LAB.

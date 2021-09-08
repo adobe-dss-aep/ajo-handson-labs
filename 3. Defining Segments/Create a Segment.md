@@ -45,11 +45,11 @@ Later on the journey, we will want to retarget people who have receive an email 
 For this segment we want to target people who have received an email, then posted a product review. We need to define a sequence of events. 
 
 10. Search for "actionName", or browse XDM ExperienceEvent > Experience > Journey Orchestration > Journey Step Event Data Fetch Field. > actionName. Drag and Drop in the middle part. Select "equal 'Message - rate your product'"     
-![Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Segment2-step1.JPG)
+![Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Segment2_step1.JPG)
  
  
 12. Second step is to check if they went to the web site and posted a review. WE use the information captured by the web site for this. Browse for web > web interaction, then drag and drop this attribute on the right side of the first event. Select name "equal review"     
-![Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Segment2-step3.JPG)
+![Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Segment2_step3.JPG)
  
 13. Last step is to define when do we want this events to occurs to be part of the segment. Let select in last 7 days ( the time condition just above the 2 events.)
 
