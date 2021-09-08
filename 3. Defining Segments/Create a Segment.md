@@ -4,7 +4,7 @@ In this exercise, you will create two Segments in Adobe Journey Optimizer that w
 
 
 ### First Segment
-The first segment we want to create is to send coupon to sliver member who have low propensity score to buy in the next 3 months. 
+The first segment we want to create is to send coupon to silver member who have low propensity score to buy in the next 3 months. 
 We will send coupon to those customers to boost our sales. 
 
 1.  Navigate to Segments in the AJO Environment by clicking on “Segments” from the Left Menu
@@ -37,17 +37,22 @@ You can click on "refresh Extimate" to get a pre count of your segment.
  
 
 ### Second Segment
-Later on the journey, we will want to retarget people who have receive a coupon but didn't use it for purchase. Let's create this 
-segment.
+Later on the journey, we will want to retarget people who have receive an email asking to post a product review, and who did complete this action in the next 7 days. Let's create this segment
 
-9.  Go back to segment list, creae a new one. Name it "Coupon unused- XXX" Replace XXX by your attendee number
+9.  Go back to segment list, create a new one. Name it "Product review fulfilled - XX" Replace XX by your attendee number
 
 10. Select "events" in the left pannel. 
-For this segment we want to target people who have received a coupon, then not made a purchase. We need to define a sequence of events. 
+For this segment we want to target people who have received an email, then posted a product review. We need to define a sequence of events. 
 
-10. Search for "actionName", or browse XDM ExperienceEvent > Experience > Journey Orchestration > Journey Step Event Data Fetch Field. > actionName. Drag and Drop in the middle part. Select "equal 'Message - send coupon'"     
+10. Search for "actionName", or browse XDM ExperienceEvent > Experience > Journey Orchestration > Journey Step Event Data Fetch Field. > actionName. Drag and Drop in the middle part. Select "equal 'Message - rate your product'"     
+![Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Segment2-step1.JPG)
+ 
+ 
+12. Second step is to check if they went to the web site and posted a review. WE use the information captured by the web site for this. Browse for web > web interaction, then drag and drop this attribute on the right side of the first event. Select name "equal review"     
+![Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Segment2-step3.JPG)
+ 
+13. Last step is to define when do we want this events to occurs to be part of the segment. Let select in last 7 days ( the time condition just above the 2 events.)
 
+14. Save your segment. 
 
-TO COMPLETE
-
-9.  END OF LAB.
+15.  END OF LAB.
