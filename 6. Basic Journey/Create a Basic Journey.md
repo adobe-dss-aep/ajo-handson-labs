@@ -21,7 +21,8 @@ We want to boost sales by proposing a coupon to silver members, and help them to
 ![Basic Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/96de49783d41b9e93724aa08aa6ccd5f3c0f42c9/0.%20Images/Basic_Journey_5.png)
 
 10.  From the Choose Segment applet, select “Silver Loyalty Members”.
-Change the Namespace to "Email". The namespace is used to identify profile, this is specially used for proofing. It will be easier to retrieve  aprofile by his email address. 
+Change the Namespace to "Email". The namespace is used to identify profile, this is specially used for testing. It will be easier to retrieve a profile by his email address than ECID.
+
 ![Basic Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Jounrey1_namespace.JPG)
 
 11.  Click "Ok".
@@ -64,7 +65,8 @@ By selecting "test" mode, your journey can be triggered for internal "test profi
 ![Basic Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey1_test1.JPG)
 
 31. Still on the left menu, select "trigger profile entrance". Enter an email address of a test profile in the "search" box. 
-We have created a test profile for you. Use hol2_uXX@gmail.svpoc.io where you replace XXX by your attendee number ex :   hol_001@gmail.svpoc.io 
+We have created a test profile for you. Use hol2_uXX@gmail.svpoc.io where you replace XXX by your attendee number ex :   hol2_u01@gmail.svpoc.io 
+
 ![Basic Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey1_test2.JPG)
 
 32. You journey is triggered for this profile. You will see path taken by your profile and the email will be received in our web mail box. 
