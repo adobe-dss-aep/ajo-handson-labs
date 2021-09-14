@@ -6,7 +6,7 @@ In this exercise, you will create an Email Message in Adobe Journey Optimizer.
 2.  Click on Create Message
 ![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/51062ce12fafcfa6bd3460f8ecd1f948de6183e2/0.%20Images/Message_2.png)
 
-3.  Add a Message Title – Example:  Luma Coupon Email
+3.  Add a Message Title – use following naming convention:  Luma Coupon Email XX where you replace XX by your attendee number
 4.  Select the Marketing Email Preset
 5.  Select the Email Channel
 6.  Click Create
@@ -60,7 +60,31 @@ In this exercise, you will create an Email Message in Adobe Journey Optimizer.
 32.  Click Save
 ![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/51062ce12fafcfa6bd3460f8ecd1f948de6183e2/0.%20Images/Message_14.png)
 
-33.  Click Publish
+
+33. At any point of time, even before publishing, you can check the preview of your email and send a proof. 
+In your email, click on "Preview"
+![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/emailPreview1.JPG)
+
+34. In the preview screen, you can select test profile for which you can see the preview. The email will be personalized based on those profile. 
+We have 3 test profiles. you can add them by typing their email addresses : 
+hol2_u01@gmail.svpoc.io
+hol2_u01@outlook.svpoc.io
+hol2_u01@hotmail.svpoc.io
+
+
+![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/emailPreview2.JPG)
+
+35. Click now on "preview", then select a test profile to see if personalisation works. 
+
+![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/emailPreview3.JPG)
+
+36. You can also send a proof. Select one or multiple test profile, then add your personal email address on the top edit box. then click on "send proof". You can add multiple adddresses if you want to test rendering on gmail, hotmail, etc.
+
+![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/emailPreview4.JPG)
+
+37.  Click Publish. 
+If your email is not publish, you will be able to select it in a jounrey, but the jounrey will be functional.  
 ![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/51062ce12fafcfa6bd3460f8ecd1f948de6183e2/0.%20Images/Message_15.png)
+
 
 34.  END OF LAB.
