@@ -17,8 +17,8 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 #### 2. Journey Components
 
 - [Lab - Create an Event](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/4.%20Journey%20and%20Offer%20Components/Creating%20an%20Event.md)
-- [Lab - Review datasource]
-- [Lab - Review Actions]
+- Lab - Review datasource
+- Lab - Review Actions
 
 #### 3. Profiles and Identities
 
@@ -45,7 +45,7 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 
 #### 5.  Content Authoring
 
-- [Lab - Review Assets]
+- [Lab - Review Assets](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/assets.md)
 - [Lab - Create an Email Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/Create%20an%20Email%20Message.md)
 
 #### 6.  Basic Journey
