@@ -6,7 +6,8 @@ We want to build a Push Journey in order to thank Mobile Users for signing up fo
 1.  Navigate to Journeys
 
 2.  Click on “Create Journey”
-![Push Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/96de49783d41b9e93724aa08aa6ccd5f3c0f42c9/0.%20Images/Push1.png)
+![Push Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/cc5532b670022b064fb872ad631337cd95a319cc/0.%20Images/Push1.png)
+
 
 3.  Type the name “Mobile App Welcome” for both the Name and the Description.
 
