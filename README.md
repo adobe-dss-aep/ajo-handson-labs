@@ -45,7 +45,7 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 
 #### 5.  Content Authoring
 
-- [Lab - Review Assets](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/assets.md)
+- [Lab - Manage Assets](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/assets.md)
 - [Lab - Create an Email Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/Create%20an%20Email%20Message.md)
 
 #### 6.  Basic Journey
