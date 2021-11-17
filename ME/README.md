@@ -26,17 +26,17 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 
 #### 4. Defining Segments
 
-- [Lab - Create a Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/3.%20Defining%20Segments/Create%20a%20Segment.md)
+- [Lab - Create a Segment](./3.%20Defining%20Segments/Create%20a%20Segment.md)
 
 
 #### 5. Offer Components
 
-- [Lab - Create a Placement](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/4.%20Journey%20and%20Offer%20Components/Create%20a%20Placement.md)
-- [Lab - Optional - Create a Rule](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/4.%20Journey%20and%20Offer%20Components/Create%20a%20Rule.md)
-- [Lab - Create a Tag](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/4.%20Journey%20and%20Offer%20Components/Create%20a%20Tag.md)
-- [Lab - Create a Collection](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/Create%20a%20Collection.md)
-- [Lab - Create a Decision](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/Create%20a%20Decision.md)
-- [Lab - Create an Offer](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/Create%20an%20Offer.md)
+- [Lab - Create a Placement](./4.%20Journey%20and%20Offer%20Components/Create%20a%20Placement.md)
+- [Lab - Optional - Create a Rule](./4.%20Journey%20and%20Offer%20Components/Create%20a%20Rule.md)
+- [Lab - Create a Tag](./main/4.%20Journey%20and%20Offer%20Components/Create%20a%20Tag.md)
+- [Lab - Create a Collection](./5.%20Content%20Authoring/Create%20a%20Collection.md)
+- [Lab - Create a Decision](./5.%20Content%20Authoring/Create%20a%20Decision.md)
+- [Lab - Create an Offer](./5.%20Content%20Authoring/Create%20an%20Offer.md)
 
 
 &nbsp;
@@ -46,10 +46,7 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 #### 5.  Content Authoring
 
 - [Lab - Manage Assets](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/assets.md)
-- [Lab - Create an Email Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/5.%20Content%20Authoring/Create%20an%20Email%20Message.md)
+- [Lab - Create an Email Message](./5.%20Content%20Authoring/Create%20an%20Email%20Message.md)
 
-#### 6.  Basic Journeys
-- [Lab - Create a Basic Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/6.%20Basic%20Journey/Create%20a%20Basic%20Journey.md)
-
-#### 7.  Complex Journey
-- [Lab - Create a Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/7.%20Complex%20Journey/Create%20a%20Complex%20Journey.md)
+#### 6.  Journeys
+- [Lab - Create real time Journey](./6.%20Basic%20Journey/Create%20a%20Basic%20Journey.md)
