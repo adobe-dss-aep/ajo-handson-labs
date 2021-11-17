@@ -1,23 +1,25 @@
 ## Lab - Create an Email Message in Adobe Journey Optimizer
 
 In this exercise, you will create an Email Message in Adobe Journey Optimizer.
+This message will be used to encourage people to subscribe to a specific plan to have access to all dramas type episode
 
 1.  Navigate to Messages in the AJO Environment by clicking on “Messages” from the Left Menu
 2.  Click on Create Message
 ![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/51062ce12fafcfa6bd3460f8ecd1f948de6183e2/0.%20Images/Message_2.png)
 
-3.  Add a Message Title – use following naming convention:  Luma Coupon Email XX where you replace XX by your attendee number
+3.  Add a Message Title – use following naming convention:  "Binji Drama XX" where you replace XX by your attendee number
 4.  Select the Marketing Email Preset
 5.  Select the Email Channel
 6.  Click Create
 ![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/51062ce12fafcfa6bd3460f8ecd1f948de6183e2/0.%20Images/Message_3.png)
 
-7.  Navigate to Messages in the AJO Environment by clicking on “Messages” from the Left Menu
-8.  Click on Create Message
-![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/51062ce12fafcfa6bd3460f8ecd1f948de6183e2/0.%20Images/Message_4.png)
+7. You will arrive in the Message screen, where we will be able to modify property, check preview, and - later - publish the message. We first need to define the content and subject line. 
+
+8.  Click on the subject line
+![Message](../0.%20Images/email.JPG)
 
 9.  Click on the canvas and type “Hey”
-10.  Use the search attributes to find “First Name” – Click the + Sign to add it to the Subject.  Finish the Subject with “Here’s a Special Offer for You!”
+10.  On the left panel, Use the search attributes to find “First Name” – Click the + Sign to add it to the Subject.  Finish the Subject with “Here’s a Special Offer for You!”
 11.  Click Save
 ![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/51062ce12fafcfa6bd3460f8ecd1f948de6183e2/0.%20Images/Message_5.png)
 
@@ -39,19 +41,19 @@ In this exercise, you will create an Email Message in Adobe Journey Optimizer.
 21.  Add an Offer Decision in the Fourth Component
 ![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/51062ce12fafcfa6bd3460f8ecd1f948de6183e2/0.%20Images/Message_9.png)
 
-22.  For the text, add “Here is a Special Offer from Luma!!”;  Make the font size 30 and center it.
+22.  For the text, add “Here is a Special Offer from Binji!!”;  Make the font size 30 and center it.
 ![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/51062ce12fafcfa6bd3460f8ecd1f948de6183e2/0.%20Images/Message_10.png)
 
-23.  Click on the Luma Brand Folder and select the image
+23.  Click on the "Media" Folder and select an image of your choice
 24.  Click “Select”
-![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/51062ce12fafcfa6bd3460f8ecd1f948de6183e2/0.%20Images/Message_11.png)
+![Message](../0.%20Images/message_11.JPG)
 
 25.  Click on the Offer Decision component
 26.  Click on “Select Offer Decision”
-![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/51062ce12fafcfa6bd3460f8ecd1f948de6183e2/0.%20Images/Message_12.png)
+![Message](/Message_12.JPG)
 
 27.  Select Email Image Placement
-28.  Select the Offer Decision
+28.  Select the Offer Decision "Bonji Subscription plan"
 29.  Click “Add”
 ![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/51062ce12fafcfa6bd3460f8ecd1f948de6183e2/0.%20Images/Message_13.png)
 
