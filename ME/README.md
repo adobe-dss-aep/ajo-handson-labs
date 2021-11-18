@@ -33,7 +33,7 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 
 - [Lab - Create a Placement](./4.%20Journey%20and%20Offer%20Components/Create%20a%20Placement.md)
 - [Lab - Optional - Create a Rule](./4.%20Journey%20and%20Offer%20Components/Create%20a%20Rule.md)
-- [Lab - Create a Tag](./main/4.%20Journey%20and%20Offer%20Components/Create%20a%20Tag.md)
+- [Lab - Create a Tag](./4.%20Journey%20and%20Offer%20Components/Create%20a%20Tag.md)
 - [Lab - Create a Collection](./5.%20Content%20Authoring/Create%20a%20Collection.md)
 - [Lab - Create a Decision](./5.%20Content%20Authoring/Create%20a%20Decision.md)
 - [Lab - Create an Offer](./5.%20Content%20Authoring/Create%20an%20Offer.md)
