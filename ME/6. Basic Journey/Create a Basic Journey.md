@@ -53,18 +53,28 @@ By selecting "test" mode, your journey can be triggered for internal "test profi
 ![Basic Journey](../0.%20Images/Journey1_test1.png)
 
 24. Still on the left menu, select "trigger event". Enter one of the following ECID values according to your attendee number:
+
 Attendee 01: 48703955349127266004164859492197811621 
+
 Attendee 02: 48703955349127266004164859492197811622 
+
 Attendee 03: 48703955349127266004164859492197811623 
+
 Attendee 04: 48703955349127266004164859492197811624 
+
 Attendee 05: 48703955349127266004164859492197811625 
+
 Attendee 06: 48703955349127266004164859492197811626 
+
 Attendee 07: 48703955349127266004164859492197811627 
+
 Attendee 08: 48703955349127266004164859492197811628 
+
 Attendee 09: 48703955349127266004164859492197811629
+
 ![Basic Journey](../0.%20Images/Journey1_test2.png)
 
-25. You journey is triggered for this profile. You will see path taken by your profile and the email will be received in our web mail box. 
+25. Your journey is triggered for this profile. You will see path taken by your profile and the email will be received in our web mail box. 
 
 ![Basic Journey](../0.%20Images/Journey1_test3.png)
 
