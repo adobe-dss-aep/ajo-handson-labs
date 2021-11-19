@@ -26,9 +26,12 @@ We want to encourage customers to upgrade from free to premium plans by offering
 ![Basic Journey](../0.%20Images/Basic_Journey_5.png)
 
 12.  Now click to add an expression, in the left menu search for "M&E", you should see a segment called "M&E Paid Subscribers"
+![Basic Journey](../0.%20Images/Basic_Journey_5a.png)
+
 13.  Drag the segment into the expression and leave the setting as "segment membership is true"  
-14.  Click "Ok".
 ![Basic Journey](../0.%20Images/Basic_Journey_6.png)
+
+14.  Click "Ok".
 
 15.  Add an "end" activity to the "Yes" branch and click Ok - we don't want to message anyone who has upgraded already.
 ![Basic Journey](../0.%20Images/Basic_Journey_7.png)
