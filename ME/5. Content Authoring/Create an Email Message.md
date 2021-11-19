@@ -84,10 +84,10 @@ media2@gmail.svpoc.io
 
 38. You can also send a proof. Select one or multiple test profile, then add your personal email address on the top edit box. then click on "send proof". You can add multiple adddresses if you want to test rendering on gmail, hotmail, etc.
 
-![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/ME/0.%20Images/emailPreview_5.png)
+![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/ME/0.%20Images/emailPreview_4.png)
 
 39.  Click "Close" to exit the preview screen, and then exit the Email Designer by clicking on the arrow on the top right. 
-![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/ME/0.%20Images/emailPreview_4.png)
+![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/ME/0.%20Images/emailPreview_5.png)
 
 40.  Now click the "Publish" button to publish your Message.  If your message is not published, you will be allowed to add it in a journey, but the journey will not be functional until the message is published.  
 ![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/ME/0.%20Images/Message_18.png)
