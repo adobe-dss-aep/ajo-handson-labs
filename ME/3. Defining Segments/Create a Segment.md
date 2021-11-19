@@ -37,13 +37,13 @@ In the segment User Interface, you can create segment based on profile attribute
 
 
 8. We now have people who watched any show named "something episode 1" in the last 6 days. Let's filter that further to only select people who watched drama shows. 
-In the list of attributes on the left panel, click on "adobeamericas275, then drag and drop "Main category" in your event Rules panel, just below the condition "name contains episode 1". 
+In the list of attributes on the left panel, click on "adobedemoamericas275", then drag and drop "Main category" in your event Rules panel, just below the condition "name contains episode 1". 
 Select "equal" then type "drama"
 
 ![Segment](../0.%20Images/Segment1-step4.JPG)
 
 
-9.  Your segment is now ready. You can click on "Refresh Estimate" to get a pre count of your segment. Then click on Save
+9.  Your segment is now ready, click on Save
 
 
 10.  END OF LAB.
