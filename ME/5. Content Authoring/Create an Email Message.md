@@ -1,7 +1,6 @@
 ## Lab - Create an Email Message in Adobe Journey Optimizer
 
-In this exercise, you will create an Email Message in Adobe Journey Optimizer.
-This message will be used to encourage people to subscribe to a specific plan to have access to all dramas type episode
+In this exercise, you will create an Email Message in Adobe Journey Optimizer, to save time we will start from a message template by duplicating an existing message.  This message will be used to encourage people to upgrade their plan from free to paid. 
 
 1.  Navigate to Messages in the AJO Environment by clicking on “Messages” from the Left Menu
 2.  Click to open the "M&E Template" Message; then click the "Duplicate" button
