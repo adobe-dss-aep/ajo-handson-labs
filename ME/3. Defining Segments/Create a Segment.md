@@ -31,7 +31,7 @@ In the segment User Interface, you can create segment based on profile attribute
 ![Segment](../0.%20Images/Segment1-step2.JPG)
 
 
-7. Change the time to 6 days, or any period you want.
+7. Change the time filter to be "In Last" and set the range to 6 "days", or any period you want.
 
 ![Segment](../0.%20Images/Segment1-step3.JPG)
 
