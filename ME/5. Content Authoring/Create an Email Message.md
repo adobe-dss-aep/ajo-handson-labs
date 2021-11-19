@@ -73,7 +73,7 @@ In your email, click on "Preview"
 ![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/ME/0.%20Images/emailPreview_1.png)
 
 36. In the preview screen, you can select test profile for which you can see the preview. The email will be personalized based on those profile. 
-We have some test profiles, you can add them by typing their email addresses: 
+We have some test profiles which you can use, first select "Email" as the Identity Namespace, then search for the following email addresses to add them: 
 media1@gmail.svpoc.io
 media2@gmail.svpoc.io
 ![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/ME/0.%20Images/emailPreview_2.png)
