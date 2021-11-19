@@ -30,12 +30,12 @@ Any date in the future for end date. Outside of this date range this offer will 
 13.  Review your offer then click "Next"
 ![Offer](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/f8a7c3ee04fa81d865ada7b9e54c2b0a0e09b83f/ME/0.%20Images/Offer_4.png)
 
-14. Offer Eligibility:  Use the "M&E - Free subscriber who has watched 5 free episodes" segment which has been pre-created for you
-15. Priority:  50
+14. Offer Eligibility:  Select "Visitors who fall into one or multiple segments", then drag across the "M&E - Free subscriber who has watched 5 free episodes" segment which has been pre-created for you
+15. Priority:  10
 Priority determine which offer will be displayed (the one with highest priority). We have some other coupon offer. Here we want to be sure we propose this extra offer if my profile has low propensity score to buy in the next 3 months
 
 16. Capping:  1000
-Capping define the total number of this offers we can propose. Let's assume we don't want to issue more than 1000 15% discount.  
+Capping will limit the total number of times this offers can be proposed to customers  
 
 17. Click Next
 ![Offer](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/f8a7c3ee04fa81d865ada7b9e54c2b0a0e09b83f/ME/0.%20Images/Offer_5.png)

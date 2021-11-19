@@ -15,7 +15,7 @@ The first segment we want to create is to identify customers who have a free sub
 
 3.  Insert Name for Segment – “Free subscriber who watched episode1 -XX”. Replace XXX with your attendee number. 
 
-In the segment User Interface, you can create segment based on profile attributes, events, reuse previously created segments, or a combinaison of those options. For this segment we will use profile infomration adn experience events. Let's start with the profile attributes 
+In the segment User Interface, you can create segment based on profile attributes, events, reuse previously created segments, or a combinaison of those options. For this segment we will use profile information and experience events. Let's start with the profile attributes 
 
 
 4.  Select "Attributes:, search for “Account Type”, or browse property Individual profile > AdobedemoAmerica 275 > Holdings
@@ -31,19 +31,19 @@ In the segment User Interface, you can create segment based on profile attribute
 ![Segment](../0.%20Images/Segment1-step2.JPG)
 
 
-7. Change the time to 6 days, or any period you want.
+7. Change the time filter to be "In Last" and set the range to 6 "days", or any period you want.
 
 ![Segment](../0.%20Images/Segment1-step3.JPG)
 
 
 8. We now have people who watched any show named "something episode 1" in the last 6 days. Let's filter that further to only select people who watched drama shows. 
-In the list of attributes on the left panel, click on "adobeamericas275, then drag and drop "Main category" in your event Rules panel, just below the condition "name contains episode 1". 
+In the list of attributes on the left panel, click on "adobedemoamericas275", then drag and drop "Main category" in your event Rules panel, just below the condition "name contains episode 1". 
 Select "equal" then type "drama"
 
 ![Segment](../0.%20Images/Segment1-step4.JPG)
 
 
-9.  Your segment is now ready. You can click on "Refresh Estimate" to get a pre count of your segment. Then click on Save
+9.  Your segment is now ready, click on Save
 
 
 10.  END OF LAB.
