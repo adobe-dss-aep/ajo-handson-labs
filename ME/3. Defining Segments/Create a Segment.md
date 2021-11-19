@@ -15,7 +15,7 @@ The first segment we want to create is to identify customers who have a free sub
 
 3.  Insert Name for Segment – “Free subscriber who watched episode1 -XX”. Replace XXX with your attendee number. 
 
-In the segment User Interface, you can create segment based on profile attributes, events, reuse previously created segments, or a combinaison of those options. For this segment we will use profile infomration adn experience events. Let's start with the profile attributes 
+In the segment User Interface, you can create segment based on profile attributes, events, reuse previously created segments, or a combinaison of those options. For this segment we will use profile information and experience events. Let's start with the profile attributes 
 
 
 4.  Select "Attributes:, search for “Account Type”, or browse property Individual profile > AdobedemoAmerica 275 > Holdings
