@@ -31,15 +31,16 @@ You can click on "refresh Extimate" to get a pre count of your segment.
 
 
 ### Second Segment
-Later on the journey, we will want to retarget people who have receive an email asking to post a product review, and who did complete this action in the next 7 days. Let's create this segment
+Let's imagine we also want to propose mobile phone. We will need to understand which type of phone our prospect are interested in, for example iphone or galaxy. For that we will need to use their behavioural data. In this ex
 
-9.  Go back to segment list, create a new one. Name it "Product review fulfilled - XX" Replace XX by your attendee number
+9.  Go back to segment list, create a new one. Name it "Galaxy Phone prospect - XX" Replace XX by your attendee number
 
-10. Select "events" in the left pannel. 
-For this segment we want to target people who have received an email, then posted a product review. We need to define a sequence of events. 
+10. For this segment we want to target people who have viewed at least 2 pages of Galaxu phone, then didn't purchase 
+All interactions on the web site are captured and stored as experience events.  
+Select "events" in the left pannel.
 
-10. Search for "actionName", or browse XDM ExperienceEvent > Experience > Journey Orchestration > Journey Step Event Data Fetch Field. > actionName. Drag and Drop in the middle part. Select "equal 'Message - rate your product'"     
-![Segment](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Segment2_step1.JPG)
+10. Search for "SKU", or browse XDM ExperienceEvent > Product List Item > SKU. Drag and Drop the SKU attributes in the middle part. Select "contains 'galaxy'". You can also define how mny time this event should happens. Select "Include at least 2".
+![Segment](/0.%20Images/Segment2_step1.JPG)
  
  
 12. Second step is to check if they went to the web site and posted a review. WE use the information captured by the web site for this. Browse for web > web interaction, then drag and drop this attribute on the right side of the first event. Select name "equal review"     
