@@ -1,39 +1,56 @@
 ## Lab - Create a Complex Journey in Adobe Journey Optimizer
 
 In this exercise, you will create a multi steps real time Journey in Adobe Journey Optimizer.
-We want to Send investment offer to customer who just made a large deposit on their account 
+We want to send investment offer to customer who just made a large deposit on their account 
 
-After completing this exercise, Your jounrey should like that:
+After completing this exercise, Your jounrey should look like that:
 ![Complex Journey](../0.%20Images/Journey2_final.JPG)
-
+The jounrey should be triggered as soon as we receive a deposit. If deposit is larger than 30k, we will inform relationship manager to contact customer. Othwerwise we will send investment offers, wait 2 weeks, and send a reminder if the money has not been invested. 
 2.  Navigate to Journeys
 3.  Click on “Create Journey”
 ![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_2.png)
 
-4.  Provide a Name and Description : Purchase Journey - XX, replace XX by your attendee number. Ex: Purchase Journey - 01
+4.  Provide a Name and Description : Large Deposit - XX, replace XX by your attendee number. Ex: Large Deposit - 01
 
-5.  Check “Allow Re-Entrance” as we want each customer to restart this journey each time he make a purchase. 
+5.  Check “Allow Re-Entrance” as we want each customer to restart this journey each time he will make a deposit. 
 
 6.  Click Ok.
 ![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_3.PNG)
 
-7.  First step to design our journey is to select when a customer will enter this journey. Here we want to trigger the journey as soon as we receive a "purchase" from our web site. On the left pannel, expend "Events", drag and drop the "LumaPurchase" event. 
+7.  First step to design our journey is to select what will trigger this journey. Here we want to trigger the journey as soon as we receive a deposit. On the left pannel, expend "Events", drag and drop the "LargeDeposit" event. 
 
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_step0.JPG)
+![Complex Journey](../0.%20Images/Journey2_step0.JPG)
 
-8.  Add a Description.
-9.  Click Ok.
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_4.PNG)
+8.  Expend the "Orchestration" menu on the left, then select condition.
+9.  Drag it onto the Canvas after the Deposit Event.
+10.  Change the Label to “Check deposit amount”, change the name of the path to "greater than 100k", then click on edit expression button
 
-10.  Expend the "Action" menu on the left, then select message. 
-11.  Drag it onto the Canvas after the Purchase Event.
-12.  Add a Label and Description:  “Thanks for Your Order”
-13.  Click on “Select a Message”.
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_5.PNG)
+![Complex Journey](../0.%20Images/Journey2_step1.JPG)
 
-14.  Click on the “Thank You Email” Message. This message has been prepared for you and contains personalisation based on purchase. 
-15.  Click Select.
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_6.PNG)
+11. Select "transaction amount" attribute. This information is part of the event, you will find it in "largeDeposit > Adobeamerica275 > Bank transaction" node. drag and drop it on the right side. enter "greater or equal than" as condition, and 100000 as value. Then click on OK.   
+
+![Complex Journey](../0.%20Images/Journey2_step2.JPG)
+
+
+12.  Click on "Add a path" button. Name is "between 10 and 100k". Then reuse the Transaction attribute as previously with condition "greater than 10000".
+Note than the first path have priority over the second, so we don't need to specify "less than 100 000" 
+![Complex Journey](../0.%20Images/Journey2_step3.JPG)
+
+13.  On the left pannel, expand the action menu, select "message" and drag and drop it on the canvas after "between 10 and 100k"path. 
+Change the label to "send invetment offer", then select the message "FSI -Large deposit"
+![Complex Journey](../0.%20Images/Journey2_step4.JPG)
+
+14. On the left pannel, expend the "orchestration", then drag and drop a "wait" activity after your message. Change the amount of time to 14 days. Click on Ok. 
+![Complex Journey](../0.%20Images/Journey2_step5.JPG)
+
+15.  Add a new "condition" activity after the wait. change the label to "Check if fund is still unused"
+![Complex Journey](../0.%20Images/Journey2_step6.JPG)
+
+16.  Edit the condition, select the segment "FSI - unused funds"
+
+TO UPDATE
+
+
 
 16.  Click Ok.
 ![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_7.PNG)
