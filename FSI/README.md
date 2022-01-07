@@ -49,4 +49,4 @@ Welcome to the Adobe Journey Optimizer Hands-On Lab Home page.
 - [Lab - Create an Email Message](./5.%20Content%20Authoring/Create%20an%20Email%20Message.md)
 
 #### 6.  Journeys
-- [Lab - Create real time Journey](./6.%20Basic%20Journey/Create%20a%20Basic%20Journey.md)
+- [Lab - Create real time Journey](./6.%20Complex%20Journey/Create%20a%20Complex%20Journey.md)

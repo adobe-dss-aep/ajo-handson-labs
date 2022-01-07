@@ -1,10 +1,10 @@
 ## Lab - Create a Complex Journey in Adobe Journey Optimizer
 
 In this exercise, you will create a multi steps real time Journey in Adobe Journey Optimizer.
-We want to reward our customers who post a review on our web site. For this we will trigger a communication in real time when someone make a purchase, will let him some time to try it, then we will ask them to post a review. If he does so we will send him a reward.  
+We want to Send investment offer to customer who just made a large deposit on their account 
 
 After completing this exercise, Your jounrey should like that:
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_final.JPG)
+![Complex Journey](../0.%20Images/Journey2_final.JPG)
 
 2.  Navigate to Journeys
 3.  Click on “Create Journey”

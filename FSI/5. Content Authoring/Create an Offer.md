@@ -1,6 +1,6 @@
 ## Lab - Create an Offer in Adobe Journey Optimizer
 
-In this exercise, you will create an Offer in Adobe Journey Optimizer.
+In this exercise, you will create an Offer to promote Term Deposit account to our customers.
 
 1.  Navigate to Offers in the AJO Environment by clicking on “Offers” from the Left Menu
 2.  Click on Create Offer
@@ -9,39 +9,40 @@ In this exercise, you will create an Offer in Adobe Journey Optimizer.
 3.  Select “Personalized Offer”
 ![Offer](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/f8a7c3ee04fa81d865ada7b9e54c2b0a0e09b83f/ME/0.%20Images/Offer_2.png)
 
-4.  For name of Offer, type “30 Day Premium Trial XXX” Replace XXX by your attendee number. Ex : 30 Day Premium Trial 001
+4.  For name of Offer, type “TD offer XX” Replace XX by your attendee number. Ex : TD offer 01
 
 5.  Populate the date ranges for Start and End Dates
 Use today as start date. 
 Any date in the future for end date. Outside of this date range this offer will not be proposed. 
 
-6.  Add tags. – Use the Tag you created previously: Media Premium Trials XXX.
+6.  Add tags. – Use the Tag you created previously: FSI - investment offer XX.
 
 7.  Click “Next”
-![Offer](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/f8a7c3ee04fa81d865ada7b9e54c2b0a0e09b83f/ME/0.%20Images/Offer_3.png)
+![Offer](../0.%20Images/Offer_3.png)
 
 8.  Select Email for the Channel
 9.  Select "Email - Image" for the placement
 10. Click Browse to open the asset explorer
-![Offer](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/f8a7c3ee04fa81d865ada7b9e54c2b0a0e09b83f/ME/0.%20Images/Offer_4a.png)
+![Offer](../0.%20Images/Offer_4a.png)
 
-11.  Select the Media Folder
-12.  Click the premiumOffer30Day.png and click Select
+11.  Select the FSI Folder
+12.  Search "Term", then select TermDepositOffer.JPG
 13.  Review your offer then click "Next"
-![Offer](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/f8a7c3ee04fa81d865ada7b9e54c2b0a0e09b83f/ME/0.%20Images/Offer_4.png)
+![Offer](../0.%20Images/offerContent.JPG)
 
-14. Offer Eligibility:  Select "Visitors who fall into one or multiple segments", then drag across the "M&E - Free subscriber who has watched 5 free episodes" segment which has been pre-created for you
-15. Priority:  10
-Priority determine which offer will be displayed (the one with highest priority). We have some other coupon offer. Here we want to be sure we propose this extra offer if my profile has low propensity score to buy in the next 3 months
+14. Offer Eligibility:  Select "Visitors who fall into one or multiple segments", then drag across the "FSI - Term Deposit Prospect"  segment which has been pre-created for you. You can use the search filter to dind this segment
 
-16. Capping:  1000
-Capping will limit the total number of times this offers can be proposed to customers  
+15. Priority:  20
+Priority determine which offer will be displayed (the one with highest priority). 
+
+16. Capping:  let 0
+Capping will limit the total number of times this offers can be proposed globally. Here we don't want to limit it.   
 
 17. Click Next
-![Offer](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/f8a7c3ee04fa81d865ada7b9e54c2b0a0e09b83f/ME/0.%20Images/Offer_5.png)
+![Offer](../0.%20Images/offerEligibility.JPG)
 
 18.  Review your Offer Details
 19.  Click Finish and Save and Approve
-![Offer](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/f8a7c3ee04fa81d865ada7b9e54c2b0a0e09b83f/ME/0.%20Images/Offer_6.png)
+![Offer](../0.%20Images/offerFinal.JPG)
 
 20.  END OF LAB.

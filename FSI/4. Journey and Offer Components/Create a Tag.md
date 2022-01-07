@@ -9,7 +9,7 @@ Here we want to create a tag to categorize our coupon offers.
 3.  Click on Create Tag
 ![Tag](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/2b82f4ea0f07f1d986f89c3e834cc3e26c756f7f/0.%20Images/Tag_1.png)
 
-4.  Provide a Name for your tag:   Media Premium Trials – Attendee ##. ( Ex : Media Premium Trials 001)
+4.  Provide a Name for your tag:   FSI - Investment product – Attendee ##. ( Ex : FSI - Investment product – 001)
 5.  Click Save
 ![Tag](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/2b82f4ea0f07f1d986f89c3e834cc3e26c756f7f/0.%20Images/Tag_2.png)
 
