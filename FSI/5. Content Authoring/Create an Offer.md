@@ -27,8 +27,9 @@ Any date in the future for end date. Outside of this date range this offer will 
 
 11.  Select the FSI Folder
 12.  Search "Term", then select TermDepositOffer.JPG
-13.  Review your offer then click "Next"
 ![Offer](../0.%20Images/offerContent.JPG)
+
+13.  Review your offer then click "Next"
 
 14. Offer Eligibility:  Select "Visitors who fall into one or multiple segments", then drag across the "FSI - Term Deposit Prospect"  segment which has been pre-created for you. You can use the search filter to dind this segment
 
