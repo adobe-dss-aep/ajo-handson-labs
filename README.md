@@ -9,7 +9,7 @@ The goal of this hands on lab is to introduce you to Adobe jounrey Optimizer's m
 
 - [Retail](./Retail/README.md)
 - [Telco](./Telco/README.md)
-- [FSI (In progress)](./FSI/README.md)
+- [FSI](./FSI/README.md)
 - [Media & Entertainment](./ME/README.md)
 
 
