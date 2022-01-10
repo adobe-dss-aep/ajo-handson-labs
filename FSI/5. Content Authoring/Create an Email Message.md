@@ -24,7 +24,7 @@ In this exercise, you will create an Email Message in Adobe Journey Optimizer, t
 11.  Click on the blue bar to open the Email Designer, or the "email editor" button on the right side
 ![Message](../0.%20Images/message6.JPG)
 
-12.  Select an asset to display in the first block, for example "Bank banner" in FSI asset folder
+12.  The email designer let you design your own email, by defining first the structure ( 1 block of 1 column, the 1 block of 2 column, then...), then select for each block the type of content (image, text, button, html, offer, etc). Here we already have a strucutre in place. We just need to modify the block we want. Start by selecting an asset to display in the first block, for example "Bank banner" in FSI asset folder
 ![Message](../0.%20Images/messageAsset1.JPG)
 ![Message](../0.%20Images/messageAsset2.JPG)
 
@@ -50,22 +50,19 @@ In this exercise, you will create an Email Message in Adobe Journey Optimizer, t
 21.  On the left panel, Use the search attributes to find “First Name” – Click the + Sign to add it to the content. 
 ![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/ME/0.%20Images/Message_16.png)
 
-22.  Click on Save
+22.  Click on Save. The email is now ready.
 
 23. At any point of time, even before publishing, you can check the preview of your email and send a proof. 
 In your email, click on "Preview"
-![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/ME/0.%20Images/emailPreview_1.png)
+![Message](../0.%20Images/emailpreview1.JPG)
 
 36. In the preview screen, you can select test profile for which you can see the preview. The email will be personalized based on those profile. 
 We have some test profiles which you can use, first select "Email" as the Identity Namespace, then search for the following email addresses to add them: 
-fsi1@gmail.com
-fsi2@gmail.com
-fsi3@gmail.com
-![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/ME/0.%20Images/emailPreview_2.png)
+fsi1@gmail.com, then click on "search profile". Repeat with fsi2@gmail.com
+![Message](../0.%20Images/emailpreview2.JPG)
 
-37. Click now on "preview", then select a test profile to see if personalisation works. 
-
-![Message](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/ME/0.%20Images/emailPreview_3.png)
+37. Click now on "preview", then select a test profile to see if personalisation works. You should notice tat first name and the offer changed when you select a profile.  
+![Message](../0.%20Images/emailpreview3.JPG)
 
 38. You can also send a proof. Select one or multiple test profile, then add your personal email address on the top edit box. then click on "send proof". You can add multiple adddresses if you want to test rendering on gmail, hotmail, etc.
 

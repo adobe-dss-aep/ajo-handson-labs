@@ -33,7 +33,7 @@ Any date in the future for end date. Outside of this date range this offer will 
 
 14. Offer Eligibility:  Select "Visitors who fall into one or multiple segments", then drag across the "FSI - Term Deposit Prospect"  segment which has been pre-created for you. You can use the search filter to dind this segment
 
-15. Priority:  20
+15. Priority:  40
 Priority determine which offer will be displayed (the one with highest priority). 
 
 16. Capping:  let 0
