@@ -46,55 +46,46 @@ Change the label to "send invetment offer", then select the message "FSI -Large 
 15.  Add a new "condition" activity after the wait. change the label to "Check if fund is still unused"
 ![Complex Journey](../0.%20Images/Journey2_step6.JPG)
 
-16.  Edit the condition, select the segment "FSI - unused funds"
+16.  Edit the condition, select the segment "FSI - unused funds", then click Ok.
+![Complex Journey](../0.%20Images/Journey2_step7.JPG)
 
-TO UPDATE
+17.  ClickIf After 2 weeks the fund is not unused, maybe we can try to send other offers or try another channel. Just to keep it simple here we will just send a reminder with the same message. 
+Add a message after the condition activity, then select the message "FSI - Large Deposit" again. 
+![Complex Journey](../0.%20Images/Journey2_step8.JPG)
+
+18.  This path is ready, we just need to add an "end" activity to end the jounrey after this reminder. You can find the "end" activity in the "orchestration" left menu. 
+![Complex Journey](../0.%20Images/Journey2_step9.JPG)
+
+19.  We now need to define what happens if the deposit is greater than 100k. Drag and drop a message afer the fist condition, for the second path ( deposit higher than 100k)
+![Complex Journey](../0.%20Images/Journey2_step10.JPG)
+
+20.  The message define the content we want to send, but by default it is send to your customer using their personal email address. We need to change this to use the financial advisor email address. On the right pannel when you select the message, notice the "email parameter" section. We can edit this value by clicking the "T" button on the right. 
+![Complex Journey](../0.%20Images/Journey2_step11.JPG)
+
+21. Now you can edit the value. Click on the pencil button to enter the editore, search for "financial", and select the "Financial advisor" attribute. This attribute is stored in Experience platform -> profile group -> Profile -> adobeamerica275 -> Financial details. click on OK to save. 
+![Complex Journey](../0.%20Images/Journey2_step12.JPG)
+
+22. Add an "end" activity after your mesasge. Your jounrey is now ready!
+![Complex Journey](../0.%20Images/Journey2_step13.JPG)
 
 
+23.  Next step is to test our jounrey before going live. Let's activate the test mode by clicking the check box on the top rubbon. 
+In this mode, your journey will be triggered in real time if we receive a deposit event, but it will only work for internal profile marked as "test profile". 
+![Complex Journey](../0.%20Images/Journey2_step14.JPG)
 
-16.  Click Ok.
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_7.PNG)
 
-17.  Click on Orchestration on the left menu and select "wait"
-18.  Drag it onto the Canvas after the Message.
-19.  Set Type as Duration and Amount of Time to 2 minutes. In reality we will use something like 7 days but for the demo we don't want to wait. 
-20.  Click Ok.
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/651011282df7ba12c4b26dd44547310d060ad276/0.%20Images/Complex_Journey_8.PNG)
+24.  We can now test the jounrey for different profile/value of deposit. Click on the "trigger an event" on the left pannel, enter the following value, then click send : 
+Identification : FSI1
+new account value : 20000
+transaction account : AC1
+transaction amount : 20000
+transaction type : credit
+![Complex Journey](../0.%20Images/Journey2_test1JPG.JPG)
 
-21. After 7 days, we want to send an email asking to post a product review. Go to "action", select message and drag and drop it in the canvas after the wait. 
+25.  You can notice the progress of your jounrey for your test customer. The arrow becoming bold as jounrey progress
+![Complex Journey](../0.%20Images/Journey2_test2.JPG)
 
-22. Select "rate your product" message
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_message2.JPG)
+26. For safety reason, all eail are sent to internal mail bx. You can ask presenter to check if email has been received.
+27. you can trigger another event with other value if you want to test the other path, such as amount = 1200000. 
 
-23.  Click on "Events" menu on the left
-24.  Drag and drop the "segment qualification" after the wait.
-Here we want to continue the jounrey only if and when our customer post a review. For this we will use the segment created previously "Product Review fulfilled"
-25.  Select the segment you have previously created "product review fulfilled - XX"
-26.  Let "behaviour" as "enter, define a timeout to 7 days. We can eventually add a path for timeout if you want to send a reminder.
-By doing so, the profile will go to next step as soon as he posts a review, and if he doesn't after 7 days the jounrey will end for him.
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_condition.JPG)
-
-27. Finally we want to send the coupon, then end the jounrey. Drag and drop another message, then select "Luma coupon email"
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_message3.JPG)
-
-28. Add an "end" activity after your message
-
-29. Your journey is now ready. We can now test it. Enable your journey for testing. 
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_proof1.JPG)
-
-30. We can trigger a journey manually, but it would be complex to provide all product informations. So let's use our web site. 
-Go to our web site. Ensure you are loged in. If not, login with email address of your test profile.
-It should be something like hol2_uXX@gmail.svpoc.io. Replace XX by your attendee number. If you work on another sandbox than hol2, replace it as well by your sandbox number. ex : hol1_u01@gmail.svpoc.io
-
-31. Browse a product, click on add to cart
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_addToCart.JPG)
-
-31. proceed to check out
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_checkout0.JPG)
-![Complex Journey](https://github.com/adobe-dss-aep/ajo-handson-labs/blob/main/0.%20Images/Journey2_checkout.JPG)
-
-32. Provide soem random value fo shipping address, then checkout. 
-
-33. Your purchase has been completed! Journey Optimiser will detect it, and trigger the jounrey if your profile is a "test profile" 
-
-34.  END OF LAB.
+28.  END OF LAB.

@@ -17,8 +17,8 @@ In this exercise, you will create an Email Message in Adobe Journey Optimizer, t
 
 7.  Click on the canvas and type “Hi”
 8.  On the left panel, Use the search attributes to find “First Name” – Click the + Sign to add it to the Subject.  Finish the Subject with “Find the best investment option for you”
-9.  Click Save
 ![Message](../0.%20Images/message5.JPG)
+9.  Click Save
 
 10.  Notice the Subject is now populated.
 11.  Click on the blue bar to open the Email Designer, or the "email editor" button on the right side
